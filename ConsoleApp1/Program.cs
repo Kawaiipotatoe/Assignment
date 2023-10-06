@@ -1,5 +1,4 @@
-﻿using System;
-namespace ConsoleApp1
+﻿namespace ConsoleApp1
 {
 
     internal class ConsoleApp1
@@ -7,8 +6,7 @@ namespace ConsoleApp1
 
         public static void Main(string[] args)
         {
-
-            //Names
+        //Names
             string Student1 = "January";
             string Student2 = "Feb";
             string Student3 = "March";
@@ -20,7 +18,7 @@ namespace ConsoleApp1
             string Student9 = "Sept";
             string Student10 = "Oct";
 
-            //Ages
+        //Ages
             int age1 = 20;
             int age2 = 21;
             int age3 = 22;
@@ -32,7 +30,7 @@ namespace ConsoleApp1
             int age9 = 28;
             int age10 = 29;
 
-            //GPA
+        //GPA
             float GPA1 = 1.1f;
             float GPA2 = 1.2f;
             float GPA3 = 1.3f;
@@ -44,7 +42,7 @@ namespace ConsoleApp1
             float GPA9 = 2.0f;
             float GPA10 = 2.1f;
 
-            //PassorFail
+        //PassorFail
             bool Pass1 = false;
             bool Pass2 = false;
             bool Pass3 = false;
@@ -56,7 +54,7 @@ namespace ConsoleApp1
             bool Pass9 = true;
             bool Pass10 = true;
 
-            //Marks
+        //Marks
             char marks1 = 'f';
             char marks2 = 'f';
             char marks3 = 'd';
@@ -71,7 +69,7 @@ namespace ConsoleApp1
 
 
 
-
+        //Printing
             Console.WriteLine("Name: " + Student1 + "\nAge:" + age1 + "\nGPA:" + GPA1 + "\nPass: " + Pass1 + "\nmarks: " + marks1);
             Console.WriteLine("\nName: " + Student2 + "\nAge:" + age2 + "\nGPA:" + GPA2 + "\nPass: " + Pass2 + "\nmarks: " + marks2);
             Console.WriteLine("\nName: " + Student3 + "\nAge:" + age3 + "\nGPA:" + GPA3 + "\nPass: " + Pass3 + "\nmarks: " + marks3);
