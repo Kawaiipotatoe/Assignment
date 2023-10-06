@@ -5,15 +5,15 @@
     {
 
         public static int Add(int a, int b)
-        { int result = a + b; return result; }
+        {int result = a + b; return result; }
 
         public static int Subtract(int a, int b)
-        { int result = a - b; return result; }
+        {int result = a - b; return result; }
 
         public static int Multiply(int a, int b)
-        { int result = a * b; return result; }
+        {int result = a * b; return result; }
         public static float Divide(float a, float b)
-        { float result = a / b; return result; }
+        {float result = a / b; return result; }
 
         public static void Main(string[] args)
         {
